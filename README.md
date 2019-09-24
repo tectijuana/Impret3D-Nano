@@ -1,109 +1,107 @@
-# How to be a Programmer: Community Version
-[//]: # (Version:1.1.0)
-Robert L. Read with Community
+# Nanotecnología en la medicina: Un gran potencial, pero ¿cuáles son los riesgos?
 
-Copyright 2002, 2003, 2016 Robert L. Read
+## Los avances de la nanotecnología médica en los próximos años tendrán una gran variedad de usos y podrían salvar un gran número de vidas.
 
-Licensed under [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
+## ¿Qué es la Nanotecnología?
 
-[Available on gitbook to read online or download for offline reading (as PDF, ePub or Mobi)](https://www.gitbook.com/book/braydie/how-to-be-a-programmer/details)
+El prefijo «nano» proviene del griego antiguo que significa «enano». En la ciencia significa una milmillonésima parte (10 a menos 9) de algo, por lo tanto un  nanómetro  (nm) es la milmillonésima parte de un  metro, o 0,00000000001 metros. Un  nanómetro  tiene entre tres y cinco átomos de ancho, es decir, unas 40.000 veces más pequeño que el grosor del cabello humano. Un virus suele tener un tamaño de 100 nm.
 
-[Available to buy as a hardcover book (cost covers production & shipping only)](http://www.blurb.com/b/6999069-how-to-be-a-programmer) - Edition 1, published 04/01/16
+La capacidad de manipular estructuras y propiedades a  nanoescala  en medicina es como tener un banco de laboratorio sub-microscópico en el que se pueden manipular componentes celulares, virus o trozos de  ADN, utilizando una gama de pequeñas herramientas, robots y tubos.  [**.**](https://nanova.org/nanotecnologia-en-la-medicina/#h_831366120251560826334580)
 
-## Introduction
-To be a good programmer is difficult and noble. The hardest part of making real a collective vision of a software project is dealing with one's coworkers and customers. Writing computer programs is important and takes great intelligence and skill. But it is really child's play compared to everything else that a good programmer must do to make a software system that succeeds for both the customer and myriad colleagues for whom he or she is partially responsible. In this essay I attempt to summarize as concisely as possible those things that I wish someone had explained to me when I was twenty-one.
+## La Nanotecnología en la Medicina (Nanomedicina)
 
-This is very subjective and, therefore, this essay is doomed to be personal and somewhat opinionated. I confine myself to problems that a programmer is very likely to have to face in her work. Many of these problems and their solutions are so general to the human condition that I will probably seem preachy. I hope in spite of this that this essay will be useful.
+Durante siglos, el hombre ha buscado curas milagrosas para poner fin al sufrimiento causado por enfermedades y lesiones. Muchos investigadores creen que las aplicaciones de la nanotecnología en medicina pueden ser el primer «paso gigante» de la humanidad hacia este objetivo. Según Robert A. Freitas, la nanomedicina es:
 
-Computer programming is taught in courses. The excellent books: The Pragmatic Programmer [Prag99], Code Complete [CodeC93], Rapid Development [RDev96], and Extreme Programming Explained [XP99] all teach computer programming and the larger issues of being a good programmer. The essays of Paul Graham [PGSite] and Eric Raymond [Hacker] should certainly be read before or along with this article. This essay differs from those excellent works by emphasizing social problems and comprehensively summarizing the entire set of necessary skills as I see them.
+-   el monitoreo, control, construcción, reparación, defensa y mejoramiento integral de todos los sistemas biológicos humanos, trabajando desde el nivel molecular, utilizando nanodispositivos y  nanoestructuras  de ingeniería;
+-   la ciencia y la tecnología para diagnosticar, tratar y prevenir enfermedades y lesiones traumáticas, aliviar el dolor y preservar y mejorar la salud humana, utilizando herramientas moleculares y conocimientos moleculares del cuerpo humano;
+-   el empleo de sistemas de máquinas moleculares para abordar problemas médicos, utilizando el conocimiento molecular para mantener y mejorar la salud humana a escala molecular».
 
-In this essay the term boss is used to refer to whomever gives you projects to do. I use the words business, company, and tribe, synonymously except that business connotes moneymaking, company connotes the modern workplace and tribe is generally the people you share loyalty with.
+## Manipulación del ADN
 
-Welcome to the tribe.
+Las terapias que implican la manipulación de genes individuales, o las vías moleculares que influyen en su expresión, se están investigando cada vez más como una opción para tratar enfermedades. Un objetivo muy buscado en este campo es la capacidad de adaptar los tratamientos en función de la composición genética de cada paciente.
 
-## Contents
+Esto crea la necesidad de herramientas que ayuden a los científicos a experimentar y desarrollar dichos tratamientos.
 
-**Also available in [Chinese](zh/README.md) and [Japanese](jp/README.md)**
+Imagínese, por ejemplo, poder estirar una sección de  ADN  como una hebra de espagueti, para que pueda examinarla u operarla, o construir nanorobots que puedan «caminar» y llevar a cabo reparaciones dentro de los componentes celulares. La nanotecnología está acercando ese sueño científico a la realidad.
 
-1. [Beginner](en/1-Beginner)
-	- Personal Skills
-		- [Learn to Debug](en/1-Beginner/Personal-Skills/01-Learn%20To%20Debug.md)
-		- [How to Debug by Splitting the Problem Space](en/1-Beginner/Personal-Skills/02-How%20to%20Debug%20by%20Splitting%20the%20Problem%20Space.md)
-		- [How to Remove an Error](en/1-Beginner/Personal-Skills/03-How%20to%20Remove%20an%20Error.md)
-		- [How to Debug Using a Log](en/1-Beginner/Personal-Skills/04-How%20to%20Debug%20Using%20a%20Log.md)
-		- [How to Understand Performance Problems](en/1-Beginner/Personal-Skills/05-How%20to%20Understand%20Performance%20Problems.md)
-		- [How to Fix Performance Problems](en/1-Beginner/Personal-Skills/06-How%20to%20Fix%20Performance%20Problems.md)
-		- [How to Optimize Loops](en/1-Beginner/Personal-Skills/07-How%20to%20Optimize%20Loops.md)
-		- [How to Deal with I/O Expense](en/1-Beginner/Personal-Skills/08-How%20to%20Deal%20with%20IO%20Expense.md)
-		- [How to Manage Memory](en/1-Beginner/Personal-Skills/09-How%20to%20Manage%20Memory.md)
-		- [How to Deal with Intermittent Bugs](en/1-Beginner/Personal-Skills/10-How%20to%20Deal%20with%20Intermittent%20Bugs.md)
-		- [How to Learn Design Skills](en/1-Beginner/Personal-Skills/11-How%20to%20Learn%20Design%20Skills.md)
-		- [How to Conduct Experiments](en/1-Beginner/Personal-Skills/12-How%20to%20Conduct%20Experiments.md)
-	- Team Skills
-		- [Why Estimation is Important](en/1-Beginner/Team-Skills/01-Why%20Estimation%20is%20Important.md)
-		- [How to Estimate Programming Time](en/1-Beginner/Team-Skills/02-How%20to%20Estimate%20Programming%20Time.md)
-		- [How to Find Out Information](en/1-Beginner/Team-Skills/03-How%20to%20Find%20Out%20Information.md)
-		- [How to Utilize People as Information Sources](en/1-Beginner/Team-Skills/04-How%20to%20Utilize%20People%20as%20Information%20Sources.md)
-		- [How to Document Wisely](en/1-Beginner/Team-Skills/05-How%20to%20Document%20Wisely.md)
-		- [How to Work with Poor Code](en/1-Beginner/Team-Skills/06-How%20to%20Work%20with%20Poor%20Code.md)
-		- [How to Use Source Code Control](en/1-Beginner/Team-Skills/07-How%20to%20Use%20Source%20Code%20Control.md)
-		- [How to Unit Test](en/1-Beginner/Team-Skills/08-How%20to%20Unit%20Test.md)
-		- [Take Breaks when Stumped](en/1-Beginner/Team-Skills/09-Take%20Breaks%20when%20Stumped.md)
-		- [How to Recognize When to Go Home](en/1-Beginner/Team-Skills/10-How%20to%20Recognize%20When%20to%20Go%20Home.md)
-		- [How to Deal with Difficult People](en/1-Beginner/Team-Skills/11-How%20to%20Deal%20with%20Difficult%20People.md)
-2. [Intermediate](en/2-Intermediate)
-	- Personal Skills
-		- [How to Stay Motivated](en/2-Intermediate/Personal-Skills/01-How%20to%20Stay%20Motivated.md)
-		- [How to be Widely Trusted](en/2-Intermediate/Personal-Skills/02-How%20to%20be%20Widely%20Trusted.md)
-		- [How to Tradeoff Time vs. Space](en/2-Intermediate/Personal-Skills/03-How%20to%20Tradeoff%20Time%20vs%20Space.md)
-		- [How to Stress Test](en/2-Intermediate/Personal-Skills/04-How%20to%20Stress%20Test.md)
-		- [How to Balance Brevity and Abstraction](en/2-Intermediate/Personal-Skills/05-How%20to%20Balance%20Brevity%20and%20Abstraction.md)
-		- [How to Learn New Skills](en/2-Intermediate/Personal-Skills/06-How%20to%20Learn%20New%20Skills.md)
-		- [Learn to Type](en/2-Intermediate/Personal-Skills/07-Learn%20to%20Type.md)
-		- [How to Do Integration Testing](en/2-Intermediate/Personal-Skills/08-How%20to%20Do%20Integration%20Testing.md)
-		- [Communication Languages](en/2-Intermediate/Personal-Skills/09-Communication%20Languages.md)
-		- [Heavy Tools](en/2-Intermediate/Personal-Skills/10-Heavy%20Tools.md)
-		- [How to analyze data](en/2-Intermediate/Personal-Skills/11-How%20to%20analyze%20data.md)
-	- Team Skills
-		- [How to Manage Development Time](en/2-Intermediate/Team-Skills/01-How%20to%20Manage%20Development%20Time.md)
-		- [How to Manage Third-Party Software Risks](en/2-Intermediate/Team-Skills/02-How%20to%20Manage%20Third-Party%20Software%20Risks.md)
-		- [How to Manage Consultants](en/2-Intermediate/Team-Skills/03-How%20to%20Manage%20Consultants.md)
-		- [How to Communicate the Right Amount](en/2-Intermediate/Team-Skills/04-How%20to%20Communicate%20the%20Right%20Amount.md)
-		- [How to Disagree Honestly and Get Away with It](en/2-Intermediate/Team-Skills/05-How%20to%20Disagree%20Honestly%20and%20Get%20Away%20with%20It.md)
-	- Judgment
-		- [How to Tradeoff Quality Against Development Time](en/2-Intermediate/Judgment/01-How%20to%20Tradeoff%20Quality%20Against%20Development%20Time.md)
-		- [How to Manage Software System Dependence](en/2-Intermediate/Judgment/02-How%20to%20Manage%20Software%20System%20Dependence.md)
-		- [How to Decide if Software is Too Immature](en/2-Intermediate/Judgment/03-How%20to%20Decide%20if%20Software%20is%20Too%20Immature.md)
-		- [How to Make a Buy vs. Build Decision](en/2-Intermediate/Judgment/04-How%20to%20Make%20a%20Buy%20vs%20Build%20Decision.md)
-		- [How to Grow Professionally](en/2-Intermediate/Judgment/05-How%20to%20Grow%20zProfessionally.md)
-		- [How to Evaluate Interviewees](en/2-Intermediate/Judgment/06-How%20to%20Evaluate%20Interviewees.md)
-		- [How to Know When to Apply Fancy Computer Science](en/2-Intermediate/Judgment/07-How%20to%20Know%20When%20to%20Apply%20Fancy%20Computer%20Science.md)
-		- [How to Talk to Non-Engineers](en/2-Intermediate/Judgment/08-How%20to%20Talk%20to%20Non-Engineers.md)
-3. [Advanced](en/3-Advanced)
-	- Technological Judgment
-		- [How to Tell the Hard From the Impossible](en/3-Advanced/Technical-Judgment/01-How%20to%20Tell%20the%20Hard%20From%20the%20Impossible.md)
-		- [How to Utilize Embedded Languages](en/3-Advanced/Technical-Judgment/02-How%20to%20Utilize%20Embedded%20Languages.md)
-		- [Choosing Languages](en/3-Advanced/Technical-Judgment/03-Choosing%20Languages.md)
-	- Compromising Wisely
-		- [How to Fight Schedule Pressure](en/3-Advanced/Compromising-Wisely/01-How%20to%20Fight%20Schedule%20Pressure.md)
-		- [How to Understand the User](en/3-Advanced/Compromising-Wisely/02-How%20to%20Understand%20the%20User.md)
-		- [How to Get a Promotion](en/3-Advanced/Compromising-Wisely/03-How%20to%20Get%20a%20Promotion.md)
-	- Serving Your Team
-		- [How to Develop Talent](en/3-Advanced/Serving-Your-Team/01-How%20to%20Develop%20Talent.md)
-		- [How to Choose What to Work On](en/3-Advanced/Serving-Your-Team/02-How%20to%20Choose%20What%20to%20Work%20On.md)
-		- [How to Get the Most From Your Team-mates](en/3-Advanced/Serving-Your-Team/03-How%20to%20Get%20the%20Most%20From%20Your%20Teammates.md)
-		- [How to Divide Problems Up](en/3-Advanced/Serving-Your-Team/04-How%20to%20Divide%20Problems%20Up.md)
-		- [How to Handle Boring Tasks](en/3-Advanced/Serving-Your-Team/05-How%20to%20Handle%20Boring%20Tasks.md)
-		- [How to Gather Support for a Project](en/3-Advanced/Serving-Your-Team/06-How%20to%20Gather%20Support%20for%20a%20Project.md)
-		- [How to Grow a System](en/3-Advanced/Serving-Your-Team/07-How%20to%20Grow%20a%20System.md)
-		- [How to Communicate Well](en/3-Advanced/Serving-Your-Team/08-How%20to%20Communicate%20Well.md)
-		- [How to Tell People Things They Don't Want to Hear](en/3-Advanced/Serving-Your-Team/09-How%20to%20Tell%20People%20Things%20They%20Don't%20Want%20to%20Hear.md)
-		- [How to Deal with Managerial Myths](en/3-Advanced/Serving-Your-Team/10-How%20to%20Deal%20with%20Managerial%20Myths.md)
-		- [How to Deal with Organizational Chaos](en/3-Advanced/Serving-Your-Team/11-How%20to%20Deal%20with%20Organizational%20Chaos.md)
-4. [Glossary](en/GLOSSARY.md)
-5. [Appendix A - Bibliography/Websiteography](en/5-Bibliography.md)
-6. [Appendix B - History (As of January 2016)](en/6-History.md)
-6. [Appendix C - Contributions (As of January 2016)](en/7-Contributions.md)
+Por ejemplo, los científicos de la Universidad Nacional Australiana han logrado adherir perlas de látex recubiertas a los extremos del  ADN  modificado, y luego utilizando una «trampa óptica» que comprende un haz de luz enfocado para mantener las perlas en su lugar, han estirado la cadena de  ADN  para estudiar las interacciones de proteínas de unión específicas.
 
+## Nanobots y Nanostars
 
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">How To Be A Programmer: Community Version</span> by <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Robert L. Read with Community</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+Mientras tanto, los químicos de la Universidad de Nueva York (NYU) han creado un robot a  nanoescala  a partir de fragmentos de  ADN  que camina sobre dos patas de sólo 10 nm de largo. En un artículo publicado en 2004 en la revista  Nano  Letters, describen cómo su «nanocaminador», con la ayuda de moléculas de psoraleno adheridas a los extremos de sus pies, da sus primeros pasos: dos hacia adelante y dos hacia atrás.
+
+Uno de los investigadores, Ned Seeman, dijo que prevé que será posible crear una línea de producción a escala de molécula, en la que se mueve una molécula hasta llegar a la ubicación correcta, y un  nanobot  hace un poco de química en ella, más bien como «soldadura por puntos» en una línea de montaje de automóviles. El laboratorio de Seeman en la Universidad de Nueva York también está buscando usar la nanotecnología del  ADN  para hacer una computadora con biochip y para descubrir cómo cristalizan las moléculas biológicas, un área que actualmente está llena de desafíos.
+
+El trabajo que Seeman y sus colegas están realizando es un buen ejemplo de «biomimética», donde con la nanotecnología pueden imitar algunos de los procesos biológicos de la naturaleza, como el comportamiento del  ADN, para diseñar nuevos métodos e incluso mejorarlos.
+
+También se están creando nanobots basados en el  ADN  para atacar a las células cancerosas. Por ejemplo, los investigadores de la Facultad de Medicina de Harvard, en Estados Unidos, informaron recientemente en Science sobre cómo hicieron un «nanorobot de origami» a partir de  ADN  para transportar una carga útil molecular. El  nanobot  en forma de barril puede transportar moléculas que contienen instrucciones que hacen que las células se comporten de una manera particular. En su estudio, el equipo demuestra con éxito cómo entregó moléculas que desencadenan el suicidio celular en las células de leucemia y linfoma.
+
+La nanotecnología en la atención de la salud no sólo tiene el potencial de cambiar drásticamente la ciencia médica y como parte de la nanotecnología beneficiosa en los países en desarrollo, sino también de abrir un nuevo campo de mejoras humanas que está a punto de añadir un conjunto profundo y complejo de cuestiones éticas para los profesionales de la salud.
+
+También se están desarrollando nanobots fabricados con otros materiales. Por ejemplo, el oro es el material que los científicos de la Universidad Northwestern utilizan para hacer «nanostars»,  nanopartículas  simples, especializadas y en forma de estrella que pueden href=»http://www.medicalnewstoday.com/articles/243856.php»>llevar medicamentos directamente a los núcleos de las células cancerosas. En un artículo reciente en la revista ACS  Nano, describen cómo las nanoestrellas cargadas de fármacos se comportan como pequeños autostopistas, que después de ser atraídos por una  proteína  sobreexpresada en la superficie de las células humanas de cáncer de cuello uterino y ovario, depositan su carga útil directamente en los núcleos de esas células.
+
+Los investigadores encontraron que dar a su  nanobot  la forma de una estrella ayudó a superar uno de los desafíos de usar  nanopartículas  para administrar medicamentos: cómo liberar los medicamentos con precisión. Dicen que la forma ayuda a concentrar los pulsos de luz usados para liberar las drogas precisamente en los puntos de la estrella.
+
+## Nanofábricas que fabrican medicamentos en sus instalaciones
+
+Los científicos están descubriendo que los medicamentos basados en proteínas son muy útiles porque pueden ser programados para entregar señales específicas a las células. Pero el problema con la administración convencional de tales medicamentos es que el cuerpo descompone la mayoría de ellos antes de que lleguen a su destino.
+
+Pero, ¿qué pasaría si fuera posible producir tales fármacos in situ, justo en el lugar de destino? Bueno, en una edición reciente de  Nano  Letters, los investigadores del Instituto Tecnológico de Massachusetts (MIT) en los Estados Unidos muestran cómo puede ser posible hacer precisamente eso. En su estudio de prueba de principios, demuestran la factibilidad de autoensamblar «nanofábricas» que fabrican compuestos de proteínas, bajo demanda, en los sitios objetivo. Hasta ahora han probado la idea en ratones, creando  nanopartículas  programadas para producir  proteína  verde fluorescente (GFP) o luciferasa expuesta a la luz UV.
+
+El equipo del MIT tuvo la idea mientras intentaba encontrar una manera de atacar los tumores metastásicos, aquellos que crecen a partir de células cancerosas que han migrado del sitio original a otras partes del cuerpo. Más del 90% de las muertes por cáncer se deben a cáncer metastásico. Ahora están trabajando en  nanopartículas  que pueden sintetizar posibles medicamentos contra el cáncer, y también en otras formas de activarlos.
+
+## Nanofibras
+
+Las nanofibras son fibras con diámetros inferiores a 1.000 nm. Las aplicaciones médicas incluyen materiales especiales para apósitos y tejidos quirúrgicos, materiales utilizados en implantes, ingeniería de tejidos y componentes de órganos artificiales.
+
+Las nanofibras de carbono también son prometedoras para las imágenes médicas y las herramientas de medición científica de precisión. Pero hay enormes desafíos que superar, uno de los principales es cómo hacerlos consistentemente del tamaño correcto. Históricamente, esto ha sido costoso y ha consumido mucho tiempo.
+
+Pero el año pasado, investigadores de la Universidad Estatal de Carolina del Norte revelaron cómo habían desarrollado un nuevo método para fabricar nanofibras de carbono de tamaños específicos. Escribiendo en ACS Applied Materials & Interfaces en marzo de 2011, describen cómo consiguieron hacer crecer nanofibras de carbono de diámetro uniforme, utilizando  nanopartículas  de níquel recubiertas con una cáscara hecha de ligandos, pequeñas moléculas orgánicas con partes funcionales que se unen directamente a los metales.
+
+Las  nanopartículas  de níquel son particularmente interesantes porque a altas temperaturas ayudan a cultivar nanofibras de carbono. Los investigadores también encontraron que había otro beneficio en el uso de estas  nanopartículas, ya que podían definir dónde crecían las nanofibras y, mediante la correcta colocación de las  nanopartículas, podían cultivar las nanofibras en un patrón específico deseado: una característica importante para los materiales útiles a  nanoescala.
+
+El plomo es otra sustancia que está encontrando uso como nanofibra, tanto es así que el futuro neurocirujano Matthew MacEwan, quien está estudiando en la Escuela de Medicina de la Universidad de Washington en St. Louis, comenzó su propia compañía de nanomedicina con el objetivo de revolucionar la malla quirúrgica que se utiliza en los quirófanos de todo el mundo.
+
+El producto principal es un polímero sintético que comprende hebras individuales de nanofibras, y fue desarrollado para reparar lesiones cerebrales y de la médula espinal, pero MacEwan piensa que también podría usarse para reparar hernias, fístulas y otras lesiones.
+
+Actualmente, las mallas quirúrgicas utilizadas para reparar la membrana protectora que cubre el cerebro y la médula espinal están hechas de material grueso y rígido, con el que es difícil trabajar. La malla de nanofibras de plomo es más delgada, más flexible y más propensa a integrarse con los propios tejidos del cuerpo, dice MacEwan. Cada hilo de la malla de nanofibras es miles de veces más pequeño que el diámetro de una sola célula. La idea es utilizar el material de nanofibras no sólo para facilitar las operaciones a los cirujanos, sino también para que haya menos complicaciones postoperatorias para los pacientes, ya que se descompone de forma natural con el paso del tiempo.
+
+Investigadores del Instituto Politécnico de la Universidad de Nueva York (NYU-Poly) han demostrado recientemente una nueva forma de fabricar nanofibras a partir de proteínas. Escribiendo recientemente en la revista Advanced Functional Materials, los investigadores dicen que encontraron su hallazgo casi por casualidad: estaban estudiando ciertas proteínas en forma de cilindro derivadas del cartílago, cuando notaron que en altas concentraciones, algunas de las proteínas se unieron espontáneamente y se auto-ensamblaron en nanofibras.
+
+Llevaron a cabo experimentos adicionales, como añadir aminoácidos que reconocen el metal y diferentes metales, y descubrieron que podían controlar la formación de fibras, alterar su forma y cómo se unían a pequeñas moléculas. Por ejemplo, la adición de níquel transformó las fibras en esteras aglomeradas, que podrían utilizarse para desencadenar la liberación de una molécula de fármaco adherida.
+
+Los investigadores esperan que este nuevo método mejore enormemente la administración de medicamentos para tratar el cáncer, los trastornos cardíacos y la enfermedad de  Alzheimer. También pueden ver aplicaciones en la regeneración de tejido humano, hueso y cartílago, e incluso como una forma de desarrollar microprocesadores más pequeños y potentes para su uso en ordenadores y electrónica de consumo.
+
+## ¿Qué pasa con el futuro y las preocupaciones que rodean a los nanomateriales?
+
+En los últimos años se ha producido una explosión en el número de estudios que muestran la variedad de aplicaciones médicas de la nanotecnología y los nanomateriales. En este artículo hemos vislumbrado sólo una pequeña sección de este vasto campo. Sin embargo, en toda la gama existen retos considerables, el mayor de los cuales parece ser cómo aumentar la producción de materiales y herramientas, y cómo reducir los costes y los plazos.
+
+![](https://nanova.org/wp-content/uploads/im%C3%A1genes-moleculares-y-terapia.jpg)
+
+Pero otro desafío es cómo asegurar rápidamente la confianza del público en que esta tecnología en rápida expansión está a salvo. Y hasta ahora, no está claro si eso se está haciendo.
+
+Hay quienes sugieren que la preocupación por la nanotecnología puede ser exagerada. Señalan el hecho de que el hecho de que un material sea nanosized, no significa que sea peligroso, de hecho las  nanopartículas  han existido desde que la Tierra nació, ocurriendo naturalmente en cenizas volcánicas y aerosoles marinos, por ejemplo. Como subproductos de la actividad humana, han estado presentes desde la Edad de Piedra, en el humo y el hollín.
+
+En cuanto a los intentos de investigar la seguridad de los nanomateriales, el Instituto Nacional del Cáncer de los Estados Unidos afirma que hay tantas  nanopartículas  presentes de forma natural en el medio ambiente que «a menudo se encuentran en niveles de orden de magnitud más altos que las partículas diseñadas que se están evaluando». En muchos aspectos, señalan, «la mayoría de las  nanopartículas  diseñadas son mucho menos tóxicas que los productos de limpieza para el hogar, los insecticidas utilizados en las mascotas de la familia y los remedios contra la caspa de venta libre», y que, por ejemplo, en su uso como portadores de quimioterapias en el tratamiento del cáncer, son mucho menos tóxicas que los medicamentos que contienen.
+
+Es quizás más en el sector alimentario donde hemos visto la mayor expansión de los nanomateriales a nivel comercial. Aunque el número de alimentos que contienen nanomateriales sigue siendo pequeño, parece que cambiará en los próximos años a medida que la tecnología se desarrolle. Los nanomateriales ya se utilizan para reducir los niveles de grasa y azúcar sin alterar el sabor, o para mejorar el envasado para mantener los alimentos más frescos durante más tiempo, o para informar a los consumidores si los alimentos están deteriorados. También se utilizan para aumentar la biodisponibilidad de los nutrientes (por ejemplo, en los complementos alimenticios).
+
+Pero, también hay partes interesadas, que destacan que mientras el ritmo de la investigación se acelera y el mercado de los nanomateriales se expande, parece que no se está haciendo lo suficiente para descubrir sus consecuencias toxicológicas.
+
+Esta fue la opinión de un comité de ciencia y tecnología de la Cámara de los Lores del Parlamento Británico, que en un reciente informe sobre nanotecnología y alimentación, planteó varias preocupaciones sobre los nanomateriales y la salud humana, en particular el riesgo que suponen los nanomateriales ingeridos.
+
+Por ejemplo, un área que preocupa al comité es el tamaño y la movilidad excepcional de las  nanopartículas: son lo suficientemente pequeñas, si se ingieren, para penetrar en las membranas celulares del revestimiento del intestino, con el potencial de acceder al cerebro y a otras partes del cuerpo, e incluso dentro de los núcleos de las células.
+
+Otra es la solubilidad y persistencia de los nanomateriales. ¿Qué ocurre, por ejemplo, con las  nanopartículas  insolubles? Si no se pueden descomponer y digerir o degradar, ¿existe el peligro de que se acumulen y dañen órganos? Se cree que los nanomateriales que comprenden óxidos de metales inorgánicos y metales son los que tienen más probabilidades de presentar un riesgo en esta área.
+
+Además, debido a su alta relación superficie/masa, las  nanopartículas  son altamente reactivas y pueden, por ejemplo, desencadenar reacciones químicas aún desconocidas, o al unirse con toxinas, permitirles entrar en células a las que de otro modo no tendrían acceso.
+
+Por ejemplo, con su gran superficie, reactividad y carga eléctrica, los nanomateriales crean las condiciones para lo que se describe como «agregación de partículas» debido a las fuerzas físicas y «aglomeración de partículas» debido a las fuerzas químicas, de modo que las  nanopartículas  individuales se unen para formar otras más grandes. Esto puede conducir no sólo a partículas dramáticamente más grandes, por ejemplo en el intestino y dentro de las células, sino que también podría resultar en la desagregación de grupos de  nanopartículas, lo que podría alterar radicalmente sus propiedades físico-químicas y su reactividad química.
+
+> «Estos fenómenos reversibles se suman a la dificultad de comprender el comportamiento y la toxicología de los nanomateriales», afirma la comisión, cuya conclusión general es que ni el Gobierno ni los Consejos de Investigación están dando la suficiente prioridad a la investigación sobre la seguridad de las nanotecnologías, especialmente «teniendo en cuenta la escala temporal en la que pueden desarrollarse los productos que contienen nanomateriales».
+
+Recomiendan que se necesite mucha más investigación para «garantizar que las agencias reguladoras puedan evaluar eficazmente la seguridad de los productos antes de que se les permita entrar en el mercado».
+
+Por lo tanto, tanto si es real como si se percibe, debe investigarse el riesgo potencial que la nanotecnología plantea para la salud humana, y debe considerarse que se está investigando. La mayoría de los nanomateriales, como sugiere el NCI, probablemente resultarán ser inofensivos.
+
+Pero cuando una tecnología avanza rápidamente, el conocimiento y la comunicación sobre su seguridad deben seguir el mismo ritmo para que se beneficie, especialmente si se trata también de garantizar la confianza del público. Basta con mirar lo que ha ocurrido, y hasta cierto punto sigue ocurriendo, con los alimentos modificados genéticamente para ver cómo puede salir mal.
